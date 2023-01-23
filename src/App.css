@@ -1,5 +1,11 @@
 @import-normalize;
 
+:root {
+  --green: #80ed99;
+  --light-green: #57cc99;
+  --blue: #38a3a5;
+}
+
 * {
   font-family: "Ubuntu", sans-serif;
 }

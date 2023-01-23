@@ -1,0 +1,20 @@
+.dropdown {
+  display: none;
+  position: absolute;
+  background: #eee;
+}
+
+.dropdown.show {
+  display: block;
+  position: absolute;
+  left: -15px;
+  align-items: center;
+  padding: 20px 0 10px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 32px;
+}
+
+.dropdown li {
+  padding: 10px 0;
+}

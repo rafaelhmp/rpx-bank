@@ -1,6 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap");
 
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
 .logo {
   font-family: "Nanum Myeongjo", serif;
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: var(--green);
   text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 60px;
+}
+
+.conta {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.conta a {
+  text-decoration: none;
+}
+
+.open {
+  padding: 20px 10px;
+  border-radius: 12px;
+  color: #fff;
+  background: rgb(56, 163, 165);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 163, 165, 1) 0%,
+    rgba(87, 204, 153, 1) 35%,
+    rgba(128, 237, 153, 1) 100%
+  );
+}
+
+.open:hover {
+  opacity: 80%;
+}
+
+.login {
+  color: #333;
+  position: relative;
+}
+
+.login::after {
+  content: "";
+  position: absolute;
+  background-color: var(--green);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.login:hover::after {
+  width: 100%;
+}
+
+.login:hover svg {
+  transform: translateX(5px);
+}
+
+.login svg {
+  padding-left: 10px;
+  color: var(--green);
+  transition: 0.3s ease-in-out;
 }

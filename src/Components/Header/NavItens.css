@@ -1,0 +1,26 @@
+.nav-item {
+  font-size: 1.25rem;
+  position: relative;
+  width: 175px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.1s ease-out;
+}
+
+.nav-item a:hover {
+  color: var(--green);
+}
+
+.nav-item svg {
+  padding-left: 15px;
+  cursor: pointer;
+  color: var(--green);
+  transition: all 0.3s ease-out;
+}
+
+.nav-item:hover.nav-item svg {
+  transform: translateY(5px);
+}
