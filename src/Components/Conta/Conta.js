@@ -39,7 +39,7 @@ const Conta = () => {
             <Carousel
               responsive={responsive}
               showDots={true}
-              arrows={false}
+              arrows={true}
               infinite={true}
               itemClass="item"
             >
