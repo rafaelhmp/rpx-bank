@@ -13,7 +13,7 @@
 }
 
 .cartao-text p {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .benefits {
@@ -37,6 +37,7 @@
 .cardBenefit-item svg {
   font-size: 1.25rem;
   padding-bottom: 20px;
+  color: var(--light-green);
 }
 
 .cardBenefit-item:hover {
