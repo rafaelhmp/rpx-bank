@@ -1,0 +1,20 @@
+.questions {
+  width: 100%;
+}
+
+.faq {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+
+.questions h3 {
+  font-size: 2rem;
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+
+.card-questions h3 {
+  padding-top: 50px;
+}
