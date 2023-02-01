@@ -20,7 +20,7 @@ const AccordionList = (props) => {
     <>
       {props.type === "conta" ? (
         <div className="accordion-list">
-          {cardQuestions.map((item, index) => (
+          {accountQuestions.map((item, index) => (
             <div
               className="accordion"
               key={index}
@@ -50,7 +50,7 @@ const AccordionList = (props) => {
         </div>
       ) : (
         <div className="accordion-list">
-          {accountQuestions.map((item, index) => (
+          {cardQuestions.map((item, index) => (
             <div
               className="accordion"
               key={index}
