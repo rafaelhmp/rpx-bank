@@ -13,7 +13,6 @@ const Hero = () => {
           Cartão de crédito sem anuidade, investimentos e mais: <br></br>
           Soluções completas para você e sua empresa em um só banco.
         </p>
-        <p></p>
         <a className="btn-hover color-1" href="#">
           Quero ser RPx
         </a>

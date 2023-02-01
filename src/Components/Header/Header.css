@@ -14,7 +14,6 @@
   font-family: "Nanum Myeongjo", serif;
   font-size: 2.75rem;
   font-weight: bold;
-  color: #333;
   text-decoration: none;
 }
 
@@ -56,7 +55,6 @@
 }
 
 .login {
-  color: #333;
   position: relative;
 }
 

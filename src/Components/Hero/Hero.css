@@ -15,7 +15,6 @@
 .hero-text h1 {
   font-weight: 300;
   font-size: 4.5rem;
-  color: #333;
   line-height: 1.25;
   margin-bottom: 0px;
 }
@@ -30,6 +29,7 @@
   line-height: 1.75;
   padding-left: 10px;
   font-size: 1.05rem;
+  padding-bottom: 50px;
 }
 
 .hero-text a {

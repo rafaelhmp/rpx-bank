@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  padding: 50px 0;
+}
+
+.cartao-text h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.cartao-text p {
+  font-size: 1.125rem;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 0 0 0;
+  gap: 30px;
+  row-gap: 60px;
+}
+
+.cardBenefit-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  transition: ease 0.3s;
+}
+
+.cardBenefit-item svg {
+  font-size: 1.25rem;
+  padding-bottom: 20px;
+}
+
+.cardBenefit-item:hover {
+  transform: scale(1.1);
+}
+
+.cartao-img {
+  animation: cardMove 2s ease-in-out alternate infinite;
+}
+
+.cartao-img img {
+  width: 35vw;
+}
+
+@keyframes cardMove {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
