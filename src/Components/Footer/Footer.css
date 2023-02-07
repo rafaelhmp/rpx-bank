@@ -1,0 +1,80 @@
+.footer {
+  background: var(--green);
+  padding-top: 50px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper span {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-store {
+  width: 50%;
+  fill: #333;
+}
+
+.link-store:hover {
+  fill: #fff;
+}
+
+.network {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.network:hover {
+  color: #fff;
+}
+
+.app span:nth-child(even) {
+  padding-top: 20px;
+}
+
+.footer-list {
+  padding-top: 15px;
+}
+
+.footer-list a {
+  text-decoration: none;
+}
+
+.footer-list li {
+  padding: 5px 0;
+}
+
+.footer-list a:hover {
+  color: #fff;
+}
+
+.contato .footer-list li p {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.credits {
+  padding-top: 50px;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.credits a {
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
