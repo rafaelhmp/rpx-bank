@@ -25,7 +25,7 @@ const Conta = () => {
     <section className="conta-section">
       <div className="container">
         <div className="conta-app">
-          <img src={RpxConta} alt="teste" />
+          <img src={RpxConta} alt="RPx Bank, o seu banco 100% digital" />
         </div>
         <div className="conta-text">
           <h2>

@@ -16,7 +16,7 @@ const Hero = () => {
         <button className="btn-hover color-1">Quero ser RPx</button>
       </div>
       <div className="hero-img">
-        <img src={Bank} alt="teste" />
+        <img src={Bank} alt="RPx Bank, o seu banco 100% digital" />
       </div>
     </section>
   );

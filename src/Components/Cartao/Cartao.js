@@ -63,7 +63,7 @@ const Cartao = () => {
           </ul>
         </div>
         <div className="cartao-img">
-          <img src={Card} alt="rpx-card" />
+          <img src={Card} alt="RPx Bank, o seu banco 100% digital" />
         </div>
       </div>
     </section>
