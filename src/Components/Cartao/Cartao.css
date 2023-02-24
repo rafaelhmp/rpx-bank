@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   gap: 100px;
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .cartao-text h2 {
@@ -49,7 +49,11 @@
 }
 
 .cartao-img img {
-  width: 35vw;
+  width: 100%;
+}
+
+.solicite:hover {
+  opacity: 0.8;
 }
 
 @keyframes cardMove {
@@ -58,5 +62,24 @@
   }
   to {
     transform: translateY(20px);
+  }
+}
+
+@media (max-width: 990px) {
+  .cartao-img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .benefits {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .cartao-text h2 {
+    font-size: 3.25rem;
   }
 }

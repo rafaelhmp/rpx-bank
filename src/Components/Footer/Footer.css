@@ -1,6 +1,6 @@
 .footer {
   background: var(--green);
-  padding-top: 50px;
+  padding: 50px 20px;
 }
 
 .wrapper {
@@ -25,6 +25,7 @@
 .link-store {
   width: 50%;
   fill: #333;
+  padding-bottom: 5px;
 }
 
 .link-store:hover {
@@ -77,4 +78,18 @@
 
 .credits a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .link-store {
+    display: block;
+    width: 80%;
+  }
 }

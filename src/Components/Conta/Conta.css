@@ -52,6 +52,7 @@
   padding: 30px 20px;
   margin: 0 4px 30px 0;
   border-radius: 12px;
+  cursor: grab;
 }
 
 .benefit h3 {
@@ -105,4 +106,35 @@
 
 .item {
   height: 220px;
+}
+
+@media (max-width: 990px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .conta-app {
+    display: none;
+  }
+  .vantagens {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .conta-section h2 {
+    font-size: 3rem;
+  }
+  .benefit {
+    padding: 15px 10px;
+  }
+  .item {
+    height: 270px;
+  }
+}
+
+@media (max-width: 300px) {
+  .conta-section h2 {
+    font-size: 2.35rem;
+  }
 }

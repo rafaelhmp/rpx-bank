@@ -18,3 +18,9 @@
 .card-questions h3 {
   padding-top: 50px;
 }
+
+@media (max-width: 990px) {
+  .accordion-list {
+    margin-left: 0px;
+  }
+}

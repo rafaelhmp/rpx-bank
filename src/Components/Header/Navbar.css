@@ -3,3 +3,9 @@
   gap: 40px;
   align-items: center;
 }
+
+@media (max-width: 900px) {
+  .mobile {
+    display: none;
+  }
+}
