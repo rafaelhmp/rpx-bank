@@ -22,16 +22,54 @@
   opacity: 1;
 }
 
-.hamburguer svg {
+.open-close {
   position: absolute;
   top: 2rem;
   right: 1rem;
+  cursor: pointer;
 }
 
 .hamburguer nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+.mobile-link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.mobile-item span {
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.mobile-dropdown {
+  padding-top: 20px;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.2s cubic-bezier(0, 1, 0, 1);
+}
+
+.mobile-dropdown.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.2s cubic-bezier(1, 0, 1, 0);
+}
+
+.mobile-dropdown p {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mobile-login a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.mobile-login span {
+  padding-left: 40px;
+  cursor: pointer;
 }

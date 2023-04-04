@@ -35,4 +35,7 @@ export const menuItens = [
       },
     ],
   },
+  {
+    title: "Fazer login",
+  },
 ];

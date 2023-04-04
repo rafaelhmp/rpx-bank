@@ -8,7 +8,11 @@ const Navbar = () => {
     <nav>
       <ul className="menus">
         {menuItens.map((menu, index) => {
-          return <NavItens itens={menu} key={index}></NavItens>;
+          return menu.submenu ? (
+            <NavItens itens={menu} key={index}></NavItens>
+          ) : (
+            ""
+          );
         })}
       </ul>
     </nav>
